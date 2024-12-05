@@ -16,7 +16,7 @@ maps = {
         "extra_actions": None,
         "poke_args": {
             "pokes": ["rato", "horny", "vogli", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 15,
             "maxlvl": 40
         },
@@ -30,7 +30,7 @@ maps = {
         "extra_actions": None,
         "poke_args": {
             "pokes": ["bushy", "lil_nut", "radishon", "horny", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 30,
             "maxlvl": 60
         },
@@ -46,7 +46,7 @@ maps = {
             "pokes": ["steini", "bato", "lilstone", "rato", 
                     "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", 
                     "emberwing", "blazefeather", "phoenixflare", "shadowling",
-                    "umbrawl", "nightterror", "darkrai", "robotV"],
+                    "umbrawl", "nightterror", "darkrai"],
             "minlvl": 40,
             "maxlvl": 128
         },
@@ -60,7 +60,7 @@ maps = {
         "extra_actions": None,
         "poke_args": {
             "pokes": ["rato", "hornita", "steini", "voglo", "wolfior", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 60,
             "maxlvl": 128
         },
@@ -74,7 +74,7 @@ maps = {
         "extra_actions": None,
         "poke_args": {
             "pokes": ["rato", "hornita", "steini", "voglo", "wolfior", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 100,
             "maxlvl": 200
         },
@@ -88,7 +88,7 @@ maps = {
         "extra_actions": None,
         "poke_args": {
             "pokes": ["rato", "hornita", "steini", "voglo", "wolfior", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 180,
             "maxlvl": 230
         },
@@ -107,7 +107,7 @@ maps = {
         "extra_actions": None,
         "poke_args": {
             "pokes": ["bato", "bator", "steini", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 180,
             "maxlvl": 230
         },
@@ -121,7 +121,7 @@ maps = {
         "extra_actions": None,
         "poke_args": {
             "pokes": ["steini", "voglo", "bushy", "rollator", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 200,
             "maxlvl": 260
         },
@@ -135,7 +135,7 @@ maps = {
         "extra_actions": "playmap_7",
         "poke_args": {
             "pokes": ["steini", "bato", "lilstone", "rollator", "gobost", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 200,
             "maxlvl": 260
         },
@@ -149,7 +149,7 @@ maps = {
         "song": "xDeviruchi - Mysterious Dungeon.mp3",
         "poke_args": {
             "pokes": ["gobost", "owol", "corcos_day", "corcos_night", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 230,
             "maxlvl": 290
         },
@@ -163,7 +163,7 @@ maps = {
         "extra_actions": None,
         "poke_args": {
             "pokes": ["gobost", "rato", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 230,
             "maxlvl": 290
         },
@@ -186,7 +186,7 @@ maps = {
         "extra_actions": None,
         "poke_args": {
             "pokes": ["steini", "voglo", "wolfior", "owol", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 230,
             "maxlvl": 290
         },
@@ -205,7 +205,7 @@ maps = {
         "extra_actions": None,
         "poke_args": {
             "pokes": ["voglo", "vogli", "owol", "rato", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 300,
             "maxlvl": 480
         },
@@ -219,7 +219,7 @@ maps = {
         "extra_actions": None,
         "poke_args": {
             "pokes": ["voglo", "vogli", "owol", "rato", "pika", "shelldrop", "shellsplash", "seedling", "toxibloom", "emberwing", "blazefeather", "phoenixflare", "shadowling"
-, "umbrawl", "nightterror", "darkrai", "robotV"],
+, "umbrawl", "nightterror", "darkrai"],
             "minlvl": 300,
             "maxlvl": 480
         },

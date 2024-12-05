@@ -1,5 +1,62 @@
 attacks = {
     # normal attacks
+    "spark_shower": {
+        "name": "Spark Shower",
+        "factor": 1.5,
+        "action": "Electrifies the target with a shower of sparks.",
+        "world_action": "Creates a small electric field around the caster.",
+        "move": ["attack", "paralyze"],
+        "miss_chance": 0.2,
+        "min_lvl": 5,
+        "desc": "A powerful electric attack that may paralyze the enemy.",
+        "types": ["electric"],
+        "effect": "paralyze",
+        "is_generic": False,
+        "ap": 15,
+    },
+    "shell_shield": {
+        "name": "Shell Shield",
+        "factor": 0,
+        "action": "Creates a protective shield.",
+        "world_action": "Generates a strong defense with a shell barrier.",
+        "move": ["defend"],
+        "miss_chance": 0,
+        "min_lvl": 3,
+        "desc": "A strong defensive move that significantly reduces damage received.",
+        "types": ["defense", "water"],
+        "effect": "boost_defense",
+        "is_generic": False,
+        "ap": 20,
+    },
+    "water_jet": {
+        "name": "Water Jet",
+        "factor": 1.2,
+        "action": "Fires a powerful jet of water at the enemy.",
+        "world_action": "Shoots a stream of water.",
+        "move": ["attack"],
+        "miss_chance": 0.1,
+        "min_lvl": 4,
+        "desc": "A high-pressure water attack that deals significant damage.",
+        "types": ["water"],
+        "effect": "",  # No special effect, just damage
+        "is_generic": False,
+        "ap": 18,
+    },
+    "ember": {
+        "name": "Ember",
+        "factor": 1,
+        "action": "Scatters small embers to burn the enemy.",
+        "world_action": "Sends out tiny flames.",
+        "move": ["attack", "burn"],
+        "miss_chance": 0.15,
+        "min_lvl": 2,
+        "desc": "A basic fire attack that may cause a burn.",
+        "types": ["fire"],
+        "effect": "burn",
+        "is_generic": False,
+        "ap": 12,
+    },
+    
     "tackle": {
         "name": "Tackle",
         "factor": 3 / 2,
@@ -968,65 +1025,6 @@ attacks = {
     },
 }
 
-# 새로운 스킬 추가
-attacks.update({
-    "spark_shower": {
-        "name": "Spark Shower",
-        "factor": 1.5,
-        "action": "Electrifies the target with a shower of sparks.",
-        "world_action": "Creates a small electric field around the caster.",
-        "move": ["attack", "paralyze"],
-        "miss_chance": 0.2,
-        "min_lvl": 5,
-        "desc": "A powerful electric attack that may paralyze the enemy.",
-        "types": ["electric"],
-        "effect": "paralyze",
-        "is_generic": False,
-        "ap": 15,
-    },
-    "shell_shield": {
-        "name": "Shell Shield",
-        "factor": 0,
-        "action": "Creates a protective shield.",
-        "world_action": "Generates a strong defense with a shell barrier.",
-        "move": ["defend"],
-        "miss_chance": 0,
-        "min_lvl": 3,
-        "desc": "A strong defensive move that significantly reduces damage received.",
-        "types": ["defense", "water"],
-        "effect": "boost_defense",
-        "is_generic": False,
-        "ap": 20,
-    },
-    "water_jet": {
-        "name": "Water Jet",
-        "factor": 1.2,
-        "action": "Fires a powerful jet of water at the enemy.",
-        "world_action": "Shoots a stream of water.",
-        "move": ["attack"],
-        "miss_chance": 0.1,
-        "min_lvl": 4,
-        "desc": "A high-pressure water attack that deals significant damage.",
-        "types": ["water"],
-        "effect": "",  # No special effect, just damage
-        "is_generic": False,
-        "ap": 18,
-    },
-    "ember": {
-        "name": "Ember",
-        "factor": 1,
-        "action": "Scatters small embers to burn the enemy.",
-        "world_action": "Sends out tiny flames.",
-        "move": ["attack", "burn"],
-        "miss_chance": 0.15,
-        "min_lvl": 2,
-        "desc": "A basic fire attack that may cause a burn.",
-        "types": ["fire"],
-        "effect": "burn",
-        "is_generic": False,
-        "ap": 12,
-    }
-})
 
 if __name__ == "__main__":
     print("\033[31;1mDo not execute this!\033[0m")
